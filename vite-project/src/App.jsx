@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import "./styles/app.css";
 import Gallery from "./assets/gallery";
 import counterone from "./assets/counter";
+import Header from "./components/Header";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -33,6 +34,35 @@ function App() {
       </p>
     </div>
   );
+}
+
+function App() {
+  return (
+  <>
+    <Header />
+    
+    <Main />
+    
+    <footer >
+
+    <h1> Footer</h1>
+    </footer>
+    </>
+  )
+}
+//Custom component
+function Main() {
+  retrun (
+    <main>
+      <h1> Main </h1>
+    </main>
+  )
+}
+//Arrow function notation
+const ArrowComponent = () => {
+  return (
+    <main>Main</main>
+  )
 }
 
 export default App;
