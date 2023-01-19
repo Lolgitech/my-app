@@ -43,6 +43,7 @@ function ProjectCard(props) {
       <h3>{TechStack[1]}</h3>
       <h3>{TechStack[2]}</h3>
       <h3>{TechStack[3]}</h3> */}
+      </div>
 
       {
        Techstack.map((Element, index) => {
@@ -68,7 +69,8 @@ function ProjectCard(props) {
       }
 
       function TechBadge(props) {
-        
+        return ()
+
       }
         
         
